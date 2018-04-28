@@ -5,12 +5,12 @@ class Bands extends Component {
   render() {
       const bandsArray = this.props.bands
       bands = bandsArray.map((band)=> {
-      <li><Band band={band} key={band.id}/></li>
+      <li><Band band={band}/></li>
     })
   
     return(
       <ul>
-       {bands
+      
       </ul>
     );
   }
