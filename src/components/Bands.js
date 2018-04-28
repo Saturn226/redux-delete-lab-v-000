@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Bands extends Component {
  
   render() {
-    const bands = this.props.bands
-   bands = bands.map((band)=> {
+    const bandsArray = this.props.bands
+   bands = bandsArray.map((band)=> {
       <li><Band band=band/></li>
     })
     return(
