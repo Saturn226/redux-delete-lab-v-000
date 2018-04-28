@@ -4,7 +4,7 @@ class Bands extends Component {
  
   render() {
       const bandsArray = this.props.bands
-      bands = bandsArray.map((band)=> {
+      const bands = bandsArray.map((band)=> {
       return <li><Band band={band}/></li>
     })
   
