@@ -6,7 +6,7 @@ class Bands extends Component {
  
     return(
       <ul>
-       // {bands}
+     
       </ul>
     );
   }
